@@ -7,7 +7,7 @@ const HomeComponents = ({ toggle }: any) => {
     <>
       <section className="max-w-[1122px] h-screen gap-16 flex item-center justify-center">
         <div className="flex justify-center items-center">
-          <Image src={img} alt="" className="w-96" />
+          <Image src={img} alt=""  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
         </div>
         <div className="flex justify-center items-end flex-col gap-5">
           <h1 className="text-black text-5xl font-extrabold text-nowrap">
